@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Narnoor&family=Sora:wght@200;300;400;500;600&display=swap');
+*,*::after,*::before{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Sora;
+}
+.ctn{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ctn1{
+  position:relative;
+  color: white;
+  width: 50%;
+  height: 100%;
+  background: url(./fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+.ctn2{
+  position:relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+.etiquetas{
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 19px;
+}
+.etiquetas p{
+  border:1px solid rgb(208, 208, 208);
+  padding: 3px 7px;
+  border-radius: 19px;
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  cursor:pointer;
+}
+.etiquetas p:hover{
+  background-color: rgb(208, 208, 208);
+  color: white;
+}
+.imagenes{
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img1{
+  background: url(./img1.webp);
+}
+.img2{
+  background: url(./img2.jpg);
+}
+.img3{
+  background: url(./img3.png);
+}
+.img1, .img2, .img3{
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+.descripcion{
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+  margin-top: 18px;
+}
+.ctn1 h1{
+  width: 270px;
+  font-size: 37px;
+  font-weight: 500;
+}
+.ctn1 h1 span{
+  letter-spacing: -1px;
+}
+.ctn2 h1{
+  width: 480px;
+  font-size:60px;
+  font-weight: 500;
+}
+.arrow{
+  position: absolute;
+  top:20px;
+  right: 20px;
+  transform: scale(3.2) rotate(-45deg);
+  cursor:pointer;
+}
+.icon{
+  position: absolute;
+  top:20px;
+  right: 20px;
+  cursor:pointer;
+}
